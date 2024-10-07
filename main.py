@@ -10,44 +10,80 @@ import signal
 
 # 配置参数
 base_url_configs = [
+    # ----------------------------------------------------------------
+    # Korea Servers
+    # ----------------------------------------------------------------
     {
         "name": "RAG Main Setup",
         "base_url": "http://rofull.gnjoy.com/RAG_SETUP_{}.exe",
         "start_date": "200304",
+        "end_date": None,  # None 表示一直检查到当前日期
         "date_format": "%y%m%d",
     },
     {
         "name": "Zero Main Setup",
         "base_url": "http://rofull.gnjoy.com/ZERO_SETUP_{}.exe",
         "start_date": "200304",
+        "end_date": None,  # None 表示一直检查到当前日期
         "date_format": "%y%m%d",
     },
     {
         "name": "RAG Main (Files)",
         "base_url": "http://rofull.gnjoy.com/Ragnarok_{}.zip",
         "start_date": "200304",
+        "end_date": None,  # None 表示一直检查到当前日期
         "date_format": "%y%m%d",
     },
     {
         "name": "Zero Main (Files)",
         "base_url": "http://rofull.gnjoy.com/RagnarokZero_{}.zip",
         "start_date": "200304",
+        "end_date": None,  # None 表示一直检查到当前日期
         "date_format": "%y%m%d",
     },
     {
         "name": "RAG Sakray (Files)",
         "base_url": "http://rofull.gnjoy.com/RAG_SETUP_{}_SAK.zip",
         "start_date": "211028",
+        "end_date": "211028",
         "date_format": "%y%m%d",
     },
     {
         "name": "Zero Sakray (Files)",
         "base_url": "http://rofull.gnjoy.com/ROZ_SETUP_{}_Sak.zip",
         "start_date": "20221021",
+        "end_date": "20221021",
+        "date_format": "%Y%m%d",
+    },
+    # ----------------------------------------------------------------
+    # Taiwan Servers
+    # ----------------------------------------------------------------
+    # http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_200120.exe
+    {
+        "name": "Taiwan Main Setup - Part 1",
+        "base_url": "http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_{}.exe",
+        "start_date": "200120",
+        "end_date": "200326",
+        "date_format": "%y%m%d",
+    },
+    # http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_210323.exe
+    {
+        "name": "Taiwan Main Setup - Part 2",
+        "base_url": "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{}.exe",
+        "start_date": "210323",
+        "end_date": None,  # None 表示一直检查到当前日期
+        "date_format": "%y%m%d",
+    },
+    # http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_20220322.exe
+    {
+        "name": "Taiwan Main Setup - Part 3",
+        "base_url": "http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{}.exe",
+        "start_date": "20220322",
+        "end_date": None,  # None 表示一直检查到当前日期
         "date_format": "%Y%m%d",
     },
 ]
-end_date = datetime.datetime.now()
+
 threads_count = 10
 cooldown = 0
 output_file = "valid_links.txt"
@@ -132,6 +168,12 @@ def group_worker(config):
 
     date_queue = Queue()
     current_date = start_date
+    end_date = config.get("end_date")
+    if end_date:
+        end_date = datetime.datetime.strptime(end_date, date_format)
+    else:
+        end_date = datetime.datetime.now()
+
     while current_date <= end_date:
         date_queue.put(current_date.strftime(date_format))
         current_date += datetime.timedelta(days=1)

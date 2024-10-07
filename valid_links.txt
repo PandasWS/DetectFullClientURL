@@ -1,5 +1,5 @@
 
---- Execution started at 2024-10-07 21:09:24 ---
+--- Execution started at 2024-10-07 22:19:05 ---
 
 [INFO] Starting checks for [RAG Main Setup] - Base URL: http://rofull.gnjoy.com/RAG_SETUP_{}.exe
 http://rofull.gnjoy.com/RAG_SETUP_200304.exe | Size: 3.64 GB
@@ -41,3 +41,18 @@ http://rofull.gnjoy.com/RAG_SETUP_211028_SAK.zip | Size: 3.07 GB
 
 [INFO] Starting checks for [Zero Sakray (Files)] - Base URL: http://rofull.gnjoy.com/ROZ_SETUP_{}_Sak.zip
 http://rofull.gnjoy.com/ROZ_SETUP_20221021_Sak.zip | Size: 2.54 GB
+
+[INFO] Starting checks for [Taiwan Main Setup - Part 1] - Base URL: http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_{}.exe
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_200120.exe | Size: 2.42 GB
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RO_Install_200326.exe | Size: 2.51 GB
+
+[INFO] Starting checks for [Taiwan Main Setup - Part 2] - Base URL: http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{}.exe
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_210323.exe | Size: 2.68 GB
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_210330.exe | Size: 2.68 GB
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_210604.exe | Size: 2.81 GB
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_231106.exe | Size: 3.64 GB
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_240919.exe | Size: 3.93 GB
+
+[INFO] Starting checks for [Taiwan Main Setup - Part 3] - Base URL: http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_{}.exe
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_20230920.exe | Size: 3.59 GB
+http://twcdn.gnjoy.com.tw/ragnarok/Client/RAGNAROK_20240424.exe | Size: 3.79 GB
