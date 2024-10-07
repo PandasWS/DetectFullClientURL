@@ -1,0 +1,43 @@
+
+--- Execution started at 2024-10-07 21:09:24 ---
+
+[INFO] Starting checks for [RAG Main Setup] - Base URL: http://rofull.gnjoy.com/RAG_SETUP_{}.exe
+http://rofull.gnjoy.com/RAG_SETUP_200304.exe | Size: 3.64 GB
+http://rofull.gnjoy.com/RAG_SETUP_200806.exe | Size: 2.91 GB
+http://rofull.gnjoy.com/RAG_SETUP_200903.exe | Size: 2.96 GB
+http://rofull.gnjoy.com/RAG_SETUP_201204.exe | Size: 3.22 GB
+http://rofull.gnjoy.com/RAG_SETUP_210607.exe | Size: 3.30 GB
+http://rofull.gnjoy.com/RAG_SETUP_211105.exe | Size: 3.19 GB
+http://rofull.gnjoy.com/RAG_SETUP_220120.exe | Size: 3.33 GB
+http://rofull.gnjoy.com/RAG_SETUP_220307.exe | Size: 3.33 GB
+http://rofull.gnjoy.com/RAG_SETUP_220706.exe | Size: 3.39 GB
+http://rofull.gnjoy.com/RAG_SETUP_240105.exe | Size: 3.80 GB
+http://rofull.gnjoy.com/RAG_SETUP_240108.exe | Size: 3.80 GB
+
+[INFO] Starting checks for [Zero Main Setup] - Base URL: http://rofull.gnjoy.com/ZERO_SETUP_{}.exe
+http://rofull.gnjoy.com/ZERO_SETUP_200304.exe | Size: 2.84 GB
+http://rofull.gnjoy.com/ZERO_SETUP_200807.exe | Size: 2.87 GB
+http://rofull.gnjoy.com/ZERO_SETUP_200903.exe | Size: 2.87 GB
+http://rofull.gnjoy.com/ZERO_SETUP_201204.exe | Size: 2.94 GB
+http://rofull.gnjoy.com/ZERO_SETUP_210607.exe | Size: 2.98 GB
+http://rofull.gnjoy.com/ZERO_SETUP_211124.exe | Size: 3.02 GB
+http://rofull.gnjoy.com/ZERO_SETUP_221207.exe | Size: 2.83 GB
+
+[INFO] Starting checks for [RAG Main (Files)] - Base URL: http://rofull.gnjoy.com/Ragnarok_{}.zip
+http://rofull.gnjoy.com/Ragnarok_200304.zip | Size: 3.52 GB
+http://rofull.gnjoy.com/Ragnarok_200813.zip | Size: 3.17 GB
+http://rofull.gnjoy.com/Ragnarok_210607.zip | Size: 3.26 GB
+http://rofull.gnjoy.com/Ragnarok_240418.zip | Size: 3.83 GB
+http://rofull.gnjoy.com/Ragnarok_240610.zip | Size: 3.84 GB
+
+[INFO] Starting checks for [Zero Main (Files)] - Base URL: http://rofull.gnjoy.com/RagnarokZero_{}.zip
+http://rofull.gnjoy.com/RagnarokZero_200304.zip | Size: 2.83 GB
+http://rofull.gnjoy.com/RagnarokZero_210607.zip | Size: 3.00 GB
+http://rofull.gnjoy.com/RagnarokZero_221208.zip | Size: 2.92 GB
+http://rofull.gnjoy.com/RagnarokZero_240513.zip | Size: 3.20 GB
+
+[INFO] Starting checks for [RAG Sakray (Files)] - Base URL: http://rofull.gnjoy.com/RAG_SETUP_{}_SAK.zip
+http://rofull.gnjoy.com/RAG_SETUP_211028_SAK.zip | Size: 3.07 GB
+
+[INFO] Starting checks for [Zero Sakray (Files)] - Base URL: http://rofull.gnjoy.com/ROZ_SETUP_{}_Sak.zip
+http://rofull.gnjoy.com/ROZ_SETUP_20221021_Sak.zip | Size: 2.54 GB
