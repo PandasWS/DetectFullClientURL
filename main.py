@@ -4,8 +4,7 @@ import datetime
 import time
 import random
 import threading
-from queue import Queue, Empty
-import sys
+from queue import Queue
 import signal
 
 # 配置参数
